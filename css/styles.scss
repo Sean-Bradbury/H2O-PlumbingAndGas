@@ -1,0 +1,114 @@
+// Colors
+$color-main-blue: #3E5D8F;
+$color-dark-grey: #3D4147;
+$color-red: #E2585D;
+
+// Utilities
+
+// Buttons
+.btn-red {
+    background-color: $color-red;
+    padding: 1rem 1.5rem;
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.btn-red-outline {
+    border: 2px solid $color-red;
+    background-color: rgba($color: #333333, $alpha: 0.3);
+    padding: 1rem 1.5rem;
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.btn-blue {
+    background-color: $color-main-blue;
+    padding: 1rem 1.5rem;
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+/* Logo */
+.logo {
+    width: 300px;
+}
+
+// Phone Number
+.phone-number {
+    background-color: $color-red;
+    position: fixed;
+    right: 1rem;
+    top: 0;
+    padding: 1rem 1.5rem;
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+/* Main Nav */
+#main-nav {
+    display: flex;
+    justify-content: space-between;   
+    align-items: flex-end;
+    position: relative;
+    top: 20px;
+    .nav-item {
+        .nav-link {
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: $color-dark-grey;
+        }
+        .active {
+            color: $color-main-blue;
+        }
+    }
+}
+
+// Header
+.carousel-item {
+    height: 450px;
+    .carousel-image-overlay {
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+        position: absolute;
+    }
+    .carousel-caption {
+        text-align: left;
+        left: 10%;
+        top: 50px;
+        .lead {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            width: 60%;
+            &::after {
+                content: "";
+                position: absolute;
+                height: 5px;
+                width: 125px;
+                background-color: $color-red;
+                left: 0;
+                margin-top: 4rem;
+            }
+        }
+        .carousel-list {
+            .carousel-list-item {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+}

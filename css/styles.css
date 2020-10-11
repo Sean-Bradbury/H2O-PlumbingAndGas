@@ -1,0 +1,117 @@
+.btn-red {
+  background-color: #E2585D;
+  padding: 1rem 1.5rem;
+}
+
+.btn-red a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-red-outline {
+  border: 2px solid #E2585D;
+  background-color: rgba(51, 51, 51, 0.3);
+  padding: 1rem 1.5rem;
+}
+
+.btn-red-outline a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-blue {
+  background-color: #3E5D8F;
+  padding: 1rem 1.5rem;
+}
+
+.btn-blue a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Logo */
+.logo {
+  width: 300px;
+}
+
+.phone-number {
+  background-color: #E2585D;
+  position: fixed;
+  right: 1rem;
+  top: 0;
+  padding: 1rem 1.5rem;
+}
+
+.phone-number a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Nav */
+#main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  top: 20px;
+}
+
+#main-nav .nav-item .nav-link {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #3D4147;
+}
+
+#main-nav .nav-item .active {
+  color: #3E5D8F;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-item .carousel-image-overlay {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.carousel-item .carousel-caption {
+  text-align: left;
+  left: 10%;
+  top: 50px;
+}
+
+.carousel-item .carousel-caption .lead {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 60%;
+}
+
+.carousel-item .carousel-caption .lead::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 125px;
+  background-color: #E2585D;
+  left: 0;
+  margin-top: 4rem;
+}
+
+.carousel-item .carousel-caption .carousel-list .carousel-list-item {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=styles.css.map */
