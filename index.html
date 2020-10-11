@@ -9,31 +9,34 @@
     <link rel="stylesheet" href="/css/styles.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bed717cf54.js" crossorigin="anonymous"></script>
+
     <title>H20 Plumbing & Gas Ltd | Plumbing, Gas & Electrical Specialists</title>
 </head>
 <body>
     <!-- Phone Number -->
-    <button class="btn phone-number mr-4"><a href="tel: 01623 422 151">01623 422 151</a></button>
+    <button class="btn phone-number mr-4"><a href="tel: 01623 422 151"><i class="fas fa-phone mr-2"></i>01623 422 151</a></button>
     <!-- Nav -->
-    <nav id="main-nav" class="m-4">
+    <nav id="main-nav" class="m-4 p-4">
         <div class="logo"><img src="/img/H20 Logo.svg" alt="" srcset=""></div>
         <ul class="nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="/services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Emergencies</a>
+              <a class="nav-link" href="/emergencies.html">Emergencies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="/contact.html">Contact</a>
             </li>
           </ul>
     </nav>
     <!-- Hero -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <section id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -45,7 +48,7 @@
             <img src="/img/Hero.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <p class="lead pt-2">One Call Can Solve All Your Plumbing & Gas Needs</p>
-              <button class="btn btn-red mt-2"><a href="tel: 01623 422 151">01623 422 151</a></button>
+              <button class="btn btn-red mt-2"><a href="tel: 01623 422 151"><i class="fas fa-phone mr-2"></i>01623 422 151</a></button>
             </div>
           </div>
           <div class="carousel-item">
@@ -53,13 +56,14 @@
                <img src="/img/plumbing-hero-sink.jpg" class="d-block w-100" alt="...">                       
             <div class="carousel-caption d-none d-md-block">
                 <p class="lead pt-2">Plumbing</p>
-                <ul class="carousel-list mt-2">
+                <ul class="carousel-list mt-4">
                     <li class="carousel-list-item font-weight-bold">24hr Emergency Callout</li>
                     <li class="carousel-list-item font-weight-bold">Domestic & Commercial</li>
                     <li class="carousel-list-item font-weight-bold">Happy To Do Small Repairs</li>
                     <li class="carousel-list-item font-weight-bold">Full Installations</li>
                 </ul>
-                <button class="btn btn-red mt-2"><a href="tel: 01623 422 151">01623 422 151</a></button>
+                <button class="btn btn-red-outline mt-2 mr-2"><a href="#">Learn More</a></button>
+                <button class="btn btn-red mt-2"><a href="tel: 01623 422 151"><i class="fas fa-phone mr-2"></i>01623 422 151</a></button>
             </div>
           </div>
           <div class="carousel-item">
@@ -67,7 +71,7 @@
                <img src="/img/gas-hero-hob.jpg" class="d-block w-100" alt="...">                       
             <div class="carousel-caption d-none d-md-block">
                 <p class="lead pt-2">Gas</p>
-                <ul class="carousel-list mt-2">
+                <ul class="carousel-list mt-4">
                     <li class="carousel-list-item font-weight-bold">24hr Emergency Callout</li>
                     <li class="carousel-list-item font-weight-bold">Domestic & Commercial Gas</li>
                     <li class="carousel-list-item font-weight-bold">Gas Appliances Installations</li>
@@ -75,7 +79,7 @@
                     <li class="carousel-list-item font-weight-bold">Landlords Gas Certificates</li>
                 </ul>
                 <button class="btn btn-red-outline mt-2 mr-2"><a href="#">Learn More</a></button>
-                <button class="btn btn-red mt-2"><a href="tel: 01623 422 151">01623 422 151</a></button>
+                <button class="btn btn-red mt-2"><a href="tel: 01623 422 151"><i class="fas fa-phone mr-2"></i>01623 422 151</a></button>
             </div>
           </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -87,11 +91,25 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </section>
+
+      <!-- CTA -->
+      <section id="main-cta">
+        <div class="jumbotron jumbotron-fluid p-3 pt-4 bg-blue">
+            <p class="text-center">12 Month Workmanship Guarantee for all customers!</p>
+        </div>
+      </section>
+
+      <section id="our-services">
+        <div class="container">
+          <h3 class="blue-heading">Our Services</h3>
+        </div>
+      </section>
 
     <!-- Boostrap Jquery Slim Build -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>

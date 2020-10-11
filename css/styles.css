@@ -1,3 +1,8 @@
+.bg-blue {
+  background-color: #334076;
+  color: #ffffff;
+}
+
 .btn-red {
   background-color: #E2585D;
   padding: 1rem 1.5rem;
@@ -10,8 +15,8 @@
 }
 
 .btn-red-outline {
-  border: 2px solid #E2585D;
-  background-color: rgba(51, 51, 51, 0.3);
+  -webkit-box-shadow: inset 0 0 0 3px #E2585D;
+          box-shadow: inset 0 0 0 3px #E2585D;
   padding: 1rem 1.5rem;
 }
 
@@ -19,6 +24,10 @@
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+}
+
+.btn-red-outline:hover {
+  background-color: rgba(51, 51, 51, 0.8);
 }
 
 .btn-blue {
@@ -32,6 +41,23 @@
   font-weight: bold;
 }
 
+.blue-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #3E5D8F;
+}
+
+.blue-heading::after {
+  content: "";
+  position: absolute;
+  height: 9px;
+  width: 100px;
+  background-color: #E2585D;
+  left: 4rem;
+  margin-top: 4rem;
+}
+
 /* Logo */
 .logo {
   width: 300px;
@@ -43,6 +69,7 @@
   right: 1rem;
   top: 0;
   padding: 1rem 1.5rem;
+  z-index: 10;
 }
 
 .phone-number a {
@@ -104,8 +131,8 @@
 .carousel-item .carousel-caption .lead::after {
   content: "";
   position: absolute;
-  height: 5px;
-  width: 125px;
+  height: 9px;
+  width: 100px;
   background-color: #E2585D;
   left: 0;
   margin-top: 4rem;
@@ -113,5 +140,11 @@
 
 .carousel-item .carousel-caption .carousel-list .carousel-list-item {
   font-size: 1.2rem;
+}
+
+#main-cta {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
