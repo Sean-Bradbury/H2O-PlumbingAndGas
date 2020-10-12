@@ -1,3 +1,8 @@
+.my-container {
+  padding: 3rem 4rem;
+  margin: auto;
+}
+
 .bg-blue {
   background-color: #334076;
   color: #ffffff;
@@ -48,13 +53,12 @@
   color: #3E5D8F;
 }
 
-.blue-heading::after {
+.blue-heading::before {
   content: "";
   position: absolute;
   height: 9px;
   width: 100px;
   background-color: #E2585D;
-  left: 4rem;
   margin-top: 4rem;
 }
 
@@ -146,5 +150,24 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+#our-services .my-container .card-deck {
+  margin-top: 50px;
+}
+
+#our-services .my-container .card-deck .card .card-body {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+#our-services .my-container .card-deck .card .card-body .card-text {
+  margin-bottom: 1rem;
+}
+
+#our-services .my-container .card-deck .card .card-body .btn-red {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 /*# sourceMappingURL=styles.css.map */
