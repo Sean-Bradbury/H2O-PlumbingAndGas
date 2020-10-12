@@ -17,6 +17,11 @@ $color-red: #E2585D;
     color: #ffffff;
 }
 
+.bg-diamond {
+    background-image: url(/img/bg/whitediamond.png);
+    background-repeat: repeat;
+}
+
 // Buttons
 .btn-red {
     background-color: $color-red;
@@ -70,6 +75,21 @@ $color-red: #E2585D;
     }
 }
 
+.grey-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: $color-dark-grey;
+    &::before {
+        content: "";
+        position: absolute;
+        height: 9px;
+        width: 100px;
+        background-color: $color-red;
+        margin-top: 4rem;
+    }
+}
+
 // Homepage
 
 /* Logo */
@@ -111,14 +131,14 @@ $color-red: #E2585D;
     }
 }
 
-// Header
+// Hero
 .carousel-item {
     height: 450px;
     .carousel-image-overlay {
         background-color: #000;
         height: 100%;
         width: 100%;
-        opacity: 0.5;
+        opacity: 0.3;
         position: absolute;
     }
     .carousel-caption {
@@ -165,6 +185,9 @@ $color-red: #E2585D;
                 .card-body {
                     text-align: center;
                     display: grid;
+                    .card-title {
+                        font-size: 1.75rem;
+                    }
                     .card-text {
                         margin-bottom: 1rem;
                     }
@@ -174,6 +197,41 @@ $color-red: #E2585D;
                     }
                 }
                }
+        }
+    }
+}
+
+// Why Choose Us Section
+#why-choose-us {
+    .my-container {
+        .card-deck {
+            margin-top: 50px;
+            .card {
+                background: none;
+                border: none;
+                .card-body {
+                    display: grid;
+                    justify-items: center;
+                    align-content: start;
+                    text-align: center;
+                    .card-title {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: bold;
+                        font-size: 2.5rem;
+                        color: $color-red;
+                    }
+                    .card-text {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: $color-dark-blue;  
+                    }
+                    .fas {
+                        color: $color-dark-grey;
+                        font-size: 65px;
+                    }
+                }
+            }
         }
     }
 }
