@@ -21,6 +21,12 @@ textarea {
   background-repeat: repeat;
 }
 
+.bg-spikes {
+  background-image: url(/img/bg/spikes.png);
+  background-repeat: repeat;
+  background-size: 50%;
+}
+
 .bg-light-grey {
   background-color: #e6e8eb;
 }
@@ -210,6 +216,15 @@ textarea {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+#main-cta .jumbotron {
+  margin-bottom: 0;
+}
+
+#what-we-do .my-container .row {
+  background-color: #ffffff;
+  border: 10px solid #ffffff;
 }
 
 #our-services .my-container .card-deck {
