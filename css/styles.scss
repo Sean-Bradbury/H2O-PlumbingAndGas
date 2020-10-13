@@ -24,6 +24,7 @@ textarea {border: none;}
 .bg-diamond {
     background-image: url(/img/bg/whitediamond.png);
     background-repeat: repeat;
+    background-size: 200px;
 }
 
 .bg-spikes {
@@ -121,17 +122,31 @@ textarea {border: none;}
 }
 
 // Phone Number
-.phone-number {
-    background-color: $color-red;
+.top-bar {
     position: fixed;
     right: 1rem;
     top: 0;
-    padding: 1rem 1.5rem;
-    z-index: 10;
-    a {
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: bold;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 3px $color-red;
+    .email-top-bar {
+        a {
+            color: $color-dark-grey;
+        }
+    }
+    .phone-number {
+        background-color: $color-red;
+        padding: 1rem 1.5rem;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
     }
 }
 
@@ -279,6 +294,24 @@ textarea {border: none;}
                         font-size: 65px;
                     }
                 }
+            }
+        }
+    }
+}
+
+#footer {
+    background-color: $color-dark-blue;
+    .footer-content {
+        display: grid;
+        grid-gap: 2rem;
+        justify-items: center;
+        color: #ffffff;
+        .footer-logo {
+            width: 375px;
+        }
+        .footer-made-by {
+            a {
+                color: #ffffff;
             }
         }
     }
