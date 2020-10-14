@@ -209,6 +209,10 @@ textarea {
   position: absolute;
 }
 
+.carousel-item .carousel-bg-img {
+  width: 100%;
+}
+
 .carousel-item .carousel-caption {
   text-align: left;
   left: 10%;
@@ -330,5 +334,101 @@ textarea {
 
 #footer .footer-content .footer-made-by a {
   color: #ffffff;
+}
+
+@media only screen and (max-width: 568px) {
+  .my-container {
+    padding: 3rem 1.5rem;
+  }
+  .top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top-bar .mr-4 {
+    margin: 0;
+  }
+  .top-bar .pl-4 {
+    padding: 0;
+  }
+  .top-bar .email-top-bar {
+    display: none;
+  }
+  .top-bar .phone-number {
+    width: 100%;
+  }
+  .top-bar .btn {
+    border-radius: 0;
+  }
+  #main-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #main-nav .m-4 {
+    margin: 0rem !important;
+  }
+  #main-nav .p-4 {
+    padding: 1.5rem !important;
+  }
+  #main-nav .logo {
+    width: 90%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-bottom: 1rem;
+  }
+  #main-nav .justify-content-end {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #main-nav .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .carousel-item {
+    height: 350px;
+  }
+  .carousel-item .carousel-caption .lead {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .carousel-item .carousel-caption .btn {
+    display: none;
+  }
+  .carousel-item .carousel-caption .trust-logos {
+    display: none;
+  }
+  .carousel-item .carousel-bg-img {
+    height: 100%;
+  }
+  #footer .footer-content .footer-logo {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
