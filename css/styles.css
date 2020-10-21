@@ -92,6 +92,13 @@ textarea {
   margin-top: 4rem;
 }
 
+.blue-heading-noline-sm {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #3E5D8F;
+}
+
 .grey-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -108,10 +115,10 @@ textarea {
   margin-top: 4rem;
 }
 
-.grey-heading-noline {
+.grey-heading-noline-sm {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #3D4147;
 }
 
