@@ -264,7 +264,6 @@ textarea {
 
 #what-we-do .my-container .row {
   background-color: #ffffff;
-  border: 10px solid #ffffff;
 }
 
 #our-services .my-container .card-deck {
@@ -325,6 +324,19 @@ textarea {
 #why-choose-us .my-container .card-deck .card .card-body .fas {
   color: #3D4147;
   font-size: 65px;
+}
+
+#reviews .carousel-item {
+  padding: 15%;
+  max-height: 450px;
+}
+
+#reviews .fa-star {
+  color: #ffd700;
+}
+
+#reviews .fas {
+  color: #000;
 }
 
 #footer {
@@ -408,6 +420,12 @@ textarea {
   }
   .carousel-item .carousel-bg-img {
     height: 100%;
+  }
+  #reviews .carousel-inner {
+    height: 600px;
+  }
+  #reviews .carousel-inner .carousel-item {
+    padding: 15%;
   }
   #footer .footer-content .footer-logo {
     width: 90%;

@@ -249,7 +249,6 @@ textarea {border: none;}
     .my-container {
         .row {
             background-color: #ffffff;
-            border: 10px solid #ffffff;
         }
     }
 }
@@ -311,6 +310,20 @@ textarea {border: none;}
                 }
             }
         }
+    }
+}
+
+// Reviews
+#reviews {
+    .carousel-item {
+        padding: 15%;
+        max-height: 450px;
+    }
+    .fa-star {
+        color: #ffd700;
+    }
+    .fas {
+        color: #000;
     }
 }
 
@@ -398,6 +411,16 @@ textarea {border: none;}
                 height: 100%;
         }
         
+    }
+
+    // Reviews
+    #reviews {
+        .carousel-inner {
+            height: 600px;
+            .carousel-item {
+                padding: 15%;
+            }
+        }
     }
         
 
