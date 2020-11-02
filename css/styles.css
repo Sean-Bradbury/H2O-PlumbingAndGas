@@ -397,10 +397,10 @@ textarea {
     margin-top: 50px;
   }
   #main-nav .navbar-brand .logo {
-    width: 300px;
+    width: 250px;
   }
   #main-nav .navbar-toggler {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   #main-nav span.navbar-toggler-icon {
     color: #3E5D8F;
