@@ -82,13 +82,16 @@ textarea {border: none;}
     font-weight: bold;
     font-size: 2.5rem;
     color: $color-main-blue;
-    &::before {
+}
+
+.heading-container {
+    margin-bottom: 2rem;
+    &::after {
         content: "";
         position: absolute;
         height: 9px;
         width: 100px;
         background-color: $color-red;
-        margin-top: 4rem;
     }
 }
 
@@ -104,14 +107,6 @@ textarea {border: none;}
     font-weight: bold;
     font-size: 2.5rem;
     color: $color-dark-grey;
-    &::before {
-        content: "";
-        position: absolute;
-        height: 9px;
-        width: 100px;
-        background-color: $color-red;
-        margin-top: 4rem;
-    }
 }
 
 .grey-heading-noline-sm {
