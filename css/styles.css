@@ -260,6 +260,10 @@ textarea {
   background-color: #ffffff;
 }
 
+#what-we-do .my-container .card {
+  max-width: 300px;
+}
+
 #our-services .my-container .card-deck {
   margin-top: 50px;
 }
