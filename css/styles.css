@@ -17,13 +17,13 @@ textarea {
 }
 
 .bg-diamond {
-  background-image: url(/img/bg/whitediamond.png);
+  background-image: url(../img/bg/whitediamond.png);
   background-repeat: repeat;
   background-size: 200px;
 }
 
 .bg-spikes {
-  background-image: url(/img/bg/spikes.png);
+  background-image: url(../img/bg/spikes.png);
   background-repeat: repeat;
   background-size: 50%;
 }

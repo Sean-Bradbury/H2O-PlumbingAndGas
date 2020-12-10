@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^about?$ about.php
+RewriteRule ^bathrooms?$ bathrooms.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^electrical?$ electrical.php
+RewriteRule ^emergencies?$ emergencies.php
+RewriteRule ^gas?$ gas.php
+RewriteRule ^heating?$ heating.php
+RewriteRule ^index?$ index.php
+RewriteRule ^landlords?$ landlords.php
+RewriteRule ^plumbing?$ plumbing.php
+RewriteRule ^about?$ about.php
+RewriteRule ^about?$ about.php
