@@ -10,7 +10,6 @@
             <div class="trust-logos mt-2">
             <img src="img/gsr-logo.png" class="trust-logo mr-2" alt="" srcset="">
             <img src="img/city&guilds-logo.png" class="trust-logo mr-2" alt="" srcset="">
-            <img src="img/CorgiGas-logo.png" class="trust-logo" alt="" srcset="">
             </div>
         </div>
         </div>
