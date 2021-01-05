@@ -7,7 +7,7 @@
                                 <p class="lead pt-2">Gas</p>
                 <ul class="carousel-list mt-4">
                     <li class="carousel-list-item font-weight-bold">12 Months Guarantee</li>
-                    <li class="carousel-list-item font-weight-bold">Domestic & Commercial</li>
+                    <li class="carousel-list-item font-weight-bold">Domestic</li>
                     <li class="carousel-list-item font-weight-bold">Competitive Prices</li>
                     <li class="carousel-list-item font-weight-bold">Gas Safety Checks</li>
                 </ul>

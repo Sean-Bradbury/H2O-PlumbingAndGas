@@ -28,8 +28,7 @@
               </div>
               <p class="mt-4 pt-4">We are a local independent family run company that serves the Nottingham, Mansfield and Derbyshire Areas.
                 <br><br>
-                We pride ourselves on being able to offer our customers a prompt, punctual service that is personal to them. All our engineers continuously work for us (we do not sub contract work out).
-                Our company is pleased to offer advice that is individual to each customer, and offer a free no obligation estimate.
+                We pride ourselves on being able to offer our customers a prompt, punctual service that is personal to them. Our company is pleased to offer advice that is individual to each customer, and offer a free no obligation estimate.
                 <br><br>
                 H2O Plumbing and Gas Ltd work on the basis that we provide a competitive pricing structure, which is backed up by a manufactures guarantee and a 12 month workmanship guarantee.
                 <br><br>

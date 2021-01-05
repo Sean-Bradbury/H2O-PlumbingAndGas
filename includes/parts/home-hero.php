@@ -39,7 +39,6 @@
             <p class="lead pt-2">Gas</p>
             <ul class="carousel-list mt-4">
                 <li class="carousel-list-item font-weight-bold">24hr Emergency Callout</li>
-                <li class="carousel-list-item font-weight-bold">Domestic & Commercial Gas</li>
                 <li class="carousel-list-item font-weight-bold">Gas Appliances Installations</li>
                 <li class="carousel-list-item font-weight-bold">Gas Impections</li>
                 <li class="carousel-list-item font-weight-bold">Landlords Gas Certificates</li>

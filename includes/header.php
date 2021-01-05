@@ -2,7 +2,7 @@
     <!-- Phone Number -->
     <div class="top-bar mr-4">
       <div class="email-top-bar mr-4 pl-4"><a href="mailto:info@h2oplumbingandgas.co.uk">info@h2oplumbingandgas.co.uk</a></div>
-      <button class="btn phone-number"><a href="tel: 01623 422 151"><i class="fas fa-phone mr-2"></i>01623 422 151</a><a href="tel: 07904 3888 50"><i class="fas fa-mobile ml-4 mr-2"></i>07904 3888 50</a></button>
+      <button class="btn phone-number"><a class="phone-number-landline" href="tel: 01623 422 151"><i class="fas fa-phone mr-2"></i>01623 422 151</a><a class="phone-number-mobile" href="tel: 07904 3888 50"><i class="fas fa-mobile ml-4 mr-2"></i>07904 3888 50</a></button>
     </div>
     <!-- Nav -->
     <nav id="main-nav" class="navbar navbar-expand-lg navbar-light mb-4">

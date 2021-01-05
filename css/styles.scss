@@ -241,6 +241,26 @@ textarea {border: none;}
     .jumbotron {
         margin-bottom: 0;
     }
+    .main-cta-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333333;
+        p {
+            margin-bottom: 0;
+        }
+        .main-cta-card-text {       
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+            padding: 0.5rem;
+            font-size: 1.1rem;
+        }
+        .fab {
+            font-size: 2.2rem;
+            margin-left: 10px;
+        }
+    }
 }
 
 // What We Do
@@ -336,6 +356,9 @@ textarea {border: none;}
         grid-gap: 2rem;
         justify-items: center;
         color: #ffffff;
+        a {
+            color: #ffffff;
+        }
         .footer-logo {
             width: 375px;
         }
@@ -358,7 +381,7 @@ textarea {border: none;}
     .top-bar {
         flex-direction: column;
         width: 100%;
-        height: 120px;
+        height: 80px;
         left: 0;
         justify-content: center;
         align-items: center;
@@ -375,6 +398,9 @@ textarea {border: none;}
             width: 100%;
             display: flex;
             flex-direction: column;
+            &-landline {
+                display: none;
+            }
             a {
                 width: 100%;
                 padding: 10px;
@@ -391,7 +417,7 @@ textarea {border: none;}
 
     // Main Nav
     #main-nav {
-        margin-top: 100px;
+        margin-top: 80px;
         .navbar-brand {
             .logo {
                 width: 250px;
