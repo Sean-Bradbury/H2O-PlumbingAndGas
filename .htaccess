@@ -7,7 +7,7 @@ RewriteRule ^electrical?$ electrical.php
 RewriteRule ^emergencies?$ emergencies.php
 RewriteRule ^gas?$ gas.php
 RewriteRule ^heating?$ heating.php
-RewriteRule ^index?$ index.php
+RewriteRule ^home?$ home.php
 RewriteRule ^landlords?$ landlords.php
 RewriteRule ^plumbing?$ plumbing.php
 RewriteRule ^about?$ about.php

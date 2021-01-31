@@ -14,7 +14,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item <?php if ($page == 'home') { echo 'active'; } ?>">
-            <a class="nav-link pt-2 pb-2 pr-4" href="index">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link pt-2 pb-2 pr-4" href="home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown <?php if ($page == 'service') { echo 'active'; } ?>">
             <a class="nav-link dropdown-toggle pt-2 pb-2 pr-4" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
